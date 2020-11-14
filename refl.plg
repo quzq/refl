@@ -1,0 +1,38 @@
+--------------------構成: refl - Win32 Release--------------------
+Begining build with project "C:\Program Files\DevStudio\MyProjects\REFL\refl.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /ML /W3 /GX /O2 /I "..\..\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp".\Release/refl.pch" /YX /Fo".\Release/" /Fd".\Release/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "NDEBUG" /mktyplib203 /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x409 /fo".\Release/refl.res" /d "NDEBUG" "
+			"Browser Database Maker" with flags "/nologo /o".\Release/refl.bsc" "
+			"COFF Linker for 80x86" with flags "dxguid.lib ddraw.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:".\Release/refl.pdb" /machine:I386 /out:".\Release/refl.exe" "
+			"ｶｽﾀﾑ ﾋﾞﾙﾄﾞ" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WINDOWS\TEMP\RSPE291.TMP" with contents </nologo /ML /W3 /GX /O2 /I "..\..\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp".\Release/refl.pch" /YX /Fo".\Release/" /Fd".\Release/" /FD /c 
+"C:\Program Files\DevStudio\MyProjects\REFL\refl.cpp"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE291.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSPE292.TMP" with contents <dxguid.lib ddraw.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:".\Release/refl.pdb" /machine:I386 /out:".\Release/refl.exe" 
+".\Release\refl.obj"
+".\Release\refl.res">
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPE292.TMP" 
+ｺﾝﾊﾟｲﾙ中...
+refl.cpp
+C:\Program Files\DevStudio\MyProjects\REFL\SGLib.h(992) : warning C4101: 'dmg' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\REFL\SGLib.h(992) : warning C4101: 'j' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\REFL\SGLib.h(992) : warning C4101: 'ref_x' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\REFL\SGLib.h(992) : warning C4101: 'ref_y' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\REFL\snapshot.h(55) : warning C4101: 'hWnd_snap' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\REFL\snapshot.h(55) : warning C4101: 'hBmpOld' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\REFL\refl.cpp(846) : warning C4101: 'rect_from' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\REFL\refl.cpp(846) : warning C4101: 'i' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\REFL\refl.cpp(846) : warning C4101: 'rect_to' : ﾛｰｶﾙ変数は 1 度も使われません。
+C:\Program Files\DevStudio\MyProjects\REFL\refl.cpp(1021) : warning C4101: 'hDCDest' : ﾛｰｶﾙ変数は 1 度も使われません。
+ﾘﾝｸ中...
+
+
+
+refl.exe - ｴﾗｰ 0、警告 10
